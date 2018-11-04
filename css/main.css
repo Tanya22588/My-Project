@@ -1,0 +1,391 @@
+html{
+   background-color: rgb(241,241,241);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+/* верхня панель */
+.top-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    border-bottom: 2px solid grey;
+    font-size: 35px;
+    color: rgb(180,184,187);
+    margin-left: 300px;
+}
+/* зелена кнопка*/
+.button_grin{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px; /* Радиус скругления */
+    color: white;
+    font-size: 35px;
+}
+/* значок на зеленый кнопці */
+.button_grin i{
+    margin-left: 7px;
+    position: relative;
+}
+/* червоні кнопочки*/
+.min-box{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    height: 20px;
+    width: 30px;
+    border-radius: 10px; /* Радиус скругления */
+    margin-left: 25px;
+    margin-top: -40px;
+    
+    /*вирівнювання по вертекалі*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+ }
+/* для того, щоб вирівняти кнопку із спливаючим вікном*/
+.min-box1 {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    height: 20px;
+    width: 30px;
+    border-radius: 10px; /* Радиус скругления */
+    margin-left: -5px;
+    margin-top: -35px;
+    
+    /*вирівнювання по вертекалі*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    
+}
+
+.nav-right{
+    
+   
+            
+}
+/*вертикальні лінії після іконок*/
+.nav-right i {
+    display: inline-block;
+    padding: 12px 30px 17px 40px;
+    border-right: 1px solid grey;
+    
+    
+      
+}
+/*пошук вирівняти по правому краю*/
+.search  {
+    margin-left: 200px;
+}
+/*поле з іменем користувача*/
+.nav-left  {
+   margin-left: 10px;
+  font-size: 18px;
+    color: black;  
+     display: inline-block;
+    padding: 1px 10px 1px 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+           
+}
+/*стрілока вниз_відступ від тексту*/
+.nav-left i {
+    margin-left: 10px;
+     
+}
+
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    margin-left: 50px;
+}
+.text-box1 {
+   
+    
+}
+/*спливаюче меню*/
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+   }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.notification-box{
+    background-color: #fff;
+    height: 255px;
+    width: 275px;
+    margin-top: -2px;
+    margin-left: 0px;
+    border: 1px solid gray;
+    font-size: 14px;
+    color: black;
+    text-indent: 10px;
+    
+    
+           }
+.notification-text{
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+}
+.group1{
+    background-color: rgb(180,184,187);
+    height: 50px;
+    width: 265px;
+    margin-top: 7px;
+    margin-left: 5px;
+    border-radius: 10px; /* Радиус скругления */
+    
+           
+}
+
+.group1_copy{
+ background-color: rgb(180,184,187);
+    height: 50px;
+    width: 265px;
+    margin-top:12px;
+    margin-left: 5px;
+    border-radius: 10px; /* Радиус скругления */   
+}
+.group1_copy2{
+ background-color: rgb(180,184,187);
+    height: 50px;
+    width: 265px;
+    margin-top:12px;
+    margin-left: 5px;
+    border-radius: 10px; /* Радиус скругления */   
+}
+
+.round2 {
+    border-radius: 10px; /* Радиус скругления */
+    margin-left: 5px;
+    margin-top:5px;
+    
+}
+.group1_text-name{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-top: -36px;
+    margin-left: 55px;
+    
+}
+.group1_text-time{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-top: -16px;
+    margin-left: 180px;
+    font-style: italic;
+}
+.group1_text-message{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 55px;
+}
+
+
+.rectangle{
+    background-color: red;
+    margin-top:5px;
+    height: 50px;
+    width: 275px;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+}
+
+
+.aside{
+    height: 2150px;
+    width: 325px;
+    background-color: rgb(51,65,78);
+    margin-top: -65px;
+}
+.logo{
+    height: 63px;
+    width: 325px;
+    background-color: rgb(133,200,117);
+    margin-top: -65px;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logo img {
+    margin-left: 40px;
+}
+.logo-text{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 31px;
+    margin-top: -9px;
+    
+}
+.logo-shape{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin-top: -12px;
+}
+.profile{
+    background-color: rgb(41,55,68);
+     /*вирівнювання по гориз*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.user_avatar{
+    border-radius: 150px; /* Радиус скругления */
+    height: 170px;
+    margin-left: 30px;
+   
+    
+}
+.round3{
+    height: 70px; 
+    border-radius: 100px; /* Радиус скругления */
+    margin-left: 0px;
+     margin-top: 40px;
+}
+.profile_droup14{
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+    margin-left: 20px;
+    color: #fff;
+    
+}
+.profile_name{
+
+font-weight: bold;
+    
+}
+.profile_profetion{
+   
+    font-size: 16px;
+}
+.profile_icon i{
+    margin-right: 20px;
+    margin-top: 15px
+}
+.nav-group13-head{
+    color: rgb(190,209,228);
+    font-family: 'Lato', sans-serif;
+     font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.nav-group13{
+   margin-top: 20px;
+    /*вирівнювання по гориз*/
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    
+   
+}
+.icon-befor{
+    
+    margin-left: 30px;
+}
+.nav-group13-text{
+    margin-left: 50px;
+}
+.icon-arrows{
+    color:rgb(172,171,167);
+    font-weight: bold;
+    margin-left: 90px;
+    
+}
+.icon-arrows1{
+    color:rgb(172,171,167);
+    font-weight: bold;
+    margin-left: 116px;
+    
+}
+.icon-arrows2{
+    color:rgb(172,171,167);
+    font-weight: bold;
+    margin-left: 127px;
+    
+}
+
+.button1{
+    display: block;
+    font-size: 40px;
+    margin: 30px auto;
+    padding: 20px;
+    
+}
+.red{
+    background: red;
+}
+
+.green{
+    background: green;
+}
+.lime{
+    background: lime;
+}
+.yellow{
+    background:yellow; 
+}
+.pink{
+    background: pink;
+}
